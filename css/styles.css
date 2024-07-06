@@ -72,6 +72,7 @@ textarea {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+  margin-bottom: 72px;
 }
 .cap {
   background-color: #fff;
@@ -232,6 +233,7 @@ textarea {
 .hero-primary-btn:hover {
   background-color: #404bbf;
 }
+
 .hero-primary-btn:focus {
   background-color: #404bbf;
 }
@@ -275,6 +277,7 @@ textarea {
   border-radius: 0px 0px 4px 4px;
   background-color: #ffffff;
 }
+
 .portfolio-text-team {
   margin: 0;
   font-weight: 400;
@@ -293,9 +296,9 @@ textarea {
   padding-right: 156px;
 }
 
-.job-title-two {
+/*.job-title-two {
   margin-bottom: 72px;
-}
+}*/
 
 .job-name {
   display: flex;
@@ -310,8 +313,6 @@ textarea {
 }
 .title-two-team {
   margin-bottom: 72px;
-  margin-bottom: 8px;
-  padding: 72px;
   box-sizing: border-box;
   font-size: 36px;
   text-transform: capitalize;
