@@ -302,9 +302,10 @@ textarea {
 }
 
 .portfolio {
-  width: 1128px;
-  height: 1000px;
-  padding: 120px;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  padding-left: 611px;
+  padding-right: 611px;
   text-align: center;
   background-color: #ffffff;
   display: flex;
@@ -317,12 +318,14 @@ textarea {
 }
 .portfolio-list-one,
 .portfolio-list-two {
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 8px;
   background-color: #ffffff;
   width: 360px;
   height: 420px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   margin-bottom: 48px;
 }
 .portfolio-list-two {
@@ -344,14 +347,15 @@ textarea {
   color: #2e2f42;
 }
 .title-two-portfolio {
-  margin-bottom: 72px;
+  box-sizing: border-box;
+  text-transform: capitalize;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-  padding: 72px;
+  margin-bottom: 72px;
 }
 .title-two-portfolio:hover {
   background-color: #ffffff;
@@ -381,12 +385,13 @@ textarea {
 
 .portfolio-job {
   display: flex;
-  column-gap: 24px;
-  row-gap: 48px;
+  gap: 24px 48px;
   flex-wrap: wrap;
+  row-gap: 48px;
   justify-content: center;
 }
 .portfolio-text {
+  margin: 0;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -396,6 +401,8 @@ textarea {
 }
 .foot {
   background-color: #2e2f42;
+  width: 1440px;
+  height: 312px;
 }
 .foot-web {
   font-family: "Raleway", sans-serif;
@@ -405,6 +412,19 @@ textarea {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+}
+
+.foot-web-all {
+  margin-left: 0 auto;
+  padding-left: 156px;
+  padding-right: 1169px;
+  padding-top: 100px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 0px;
 }
 .foot-studio-white {
   font-family: "Raleway", sans-serif;
@@ -417,9 +437,15 @@ textarea {
 }
 
 .foot-text {
+  margin-left: 0 auto;
+  padding-top: 16px;
+  padding-left: 156px;
+  padding-right: 1020px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  padding-bottom: 100px;
+  box-sizing: border-box;
 }
