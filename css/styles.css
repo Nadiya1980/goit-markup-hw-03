@@ -37,6 +37,7 @@ img {
   margin: 0 auto;
 }
 .cap-container {
+  border-bottom: 1px solid #e7e9fc;
   display: flex;
   align-items: center;
   width: 1158px;
@@ -178,7 +179,7 @@ textarea {
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  padding-top: 188px;
+  padding: 188px 0;
 }
 
 .container-hero {
@@ -186,7 +187,6 @@ textarea {
   flex-direction: column;
   align-items: center;
   width: 1607px;
-  padding-bottom: 292px;
   box-sizing: border-box;
 }
 
@@ -234,11 +234,14 @@ textarea {
   background-color: #404bbf;
 }
 .team {
+  padding: 120px 0;
   margin-bottom: 72px;
   background-color: #f4f4fd;
   width: 1440px;
   height: 732px;
-  padding-top: 120px;
+}
+.container-team {
+  padding: 120px 0;
 }
 
 .contact-team {
@@ -251,6 +254,19 @@ textarea {
 .team-our {
   display: flex;
   padding-bottom: 120px;
+}
+
+.team-info {
+  padding: 32px 0;
+}
+
+.team-name {
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.team-position {
+  text-align: center;
 }
 
 .team-foto-list {
@@ -288,6 +304,8 @@ textarea {
   box-sizing: border-box;
 }
 .title-two-team {
+  margin-bottom: 72px;
+  margin-bottom: 8px;
   padding: 72px;
   box-sizing: border-box;
   font-size: 36px;
@@ -344,6 +362,21 @@ textarea {
   display: flex;
   justify-content: center;
   padding: 120px 0 120px 0;
+}
+
+.app-info {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
+
+.app-title {
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.app-category {
+  text-align: center;
 }
 
 .container-portfolio {
