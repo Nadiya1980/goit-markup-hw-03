@@ -27,6 +27,10 @@ a {
   text-decoration: none;
 }
 
+img {
+  display: block;
+}
+
 .container {
   min-width: 1158px;
   padding: 0 15px;
@@ -220,11 +224,12 @@ textarea {
   background-color: #f4f4fd;
   width: 1440px;
   height: 732px;
+  padding-top: 120px;
 }
 
 .team-our {
   display: flex;
-  padding: 120px;
+  padding-bottom: 120px;
 }
 .team-foto-list {
   background-color: #ffffff;
@@ -237,10 +242,6 @@ textarea {
   padding-right: 156px;
   padding-top: 120px;
   padding-bottom: 120px;
-}
-.container-job {
-  display: flex;
-  justify-content: center;
 }
 
 .job-name {
@@ -266,7 +267,9 @@ textarea {
   background-color: #ffffff;
 }
 .job-title {
-  margin: 0 0 8px 0;
+  width: 264px;
+  height: 24px;
+  margin: 0;
   padding-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
@@ -275,9 +278,11 @@ textarea {
   color: #2e2f42;
 }
 .job-text {
+  width: 264px;
   gap: 24px;
-  margin: 0;
-  height: 80px;
+  margin: 8px 0 0 0;
+  padding: 0;
+  flex-grow: 1;
   overflow: hidden;
   font-weight: 400;
   font-size: 16px;
@@ -296,8 +301,39 @@ textarea {
   justify-content: space-between;
 }
 
-.portfolio-list {
+.portfolio {
+  width: 1128px;
+  height: 1000;
+  padding: 120px;
+  text-align: center;
   background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+}
+
+.container-portfolio {
+  display: flex;
+  justify-content: center;
+}
+.portfolio-list-one,
+.portfolio-list-two {
+  background-color: #ffffff;
+  width: 360px;
+  height: 420px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 48px;
+}
+.portfolio-list-two {
+  margin-bottom: 0;
+}
+
+.portfolio-list-one img,
+.portfolio-list-two img {
+  width: 360px;
+  height: 300px;
+  margin-bottom: 32px;
 }
 .title-two {
   font-weight: 700;
@@ -308,13 +344,14 @@ textarea {
   color: #2e2f42;
 }
 .title-two-portfolio {
+  margin-bottom: 72px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
-  text-transform: capitalize;
   color: #2e2f42;
+  padding: 72px;
 }
 .title-two-portfolio:hover {
   background-color: #ffffff;
@@ -326,6 +363,12 @@ textarea {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 8px;
+}
+
+.team-our {
+  display: flex;
+  gap: 24px;
 }
 .box-list {
   width: calc((100% - 3 * 24px) / 4);
@@ -333,7 +376,15 @@ textarea {
 }
 
 .team-our-img {
-  padding-bottom: 32px;
+  margin-bottom: 32px;
+}
+
+.portfolio-job {
+  display: flex;
+  column-gap: 24px;
+  row-gap: 48px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .portfolio-text {
   font-weight: 400;
