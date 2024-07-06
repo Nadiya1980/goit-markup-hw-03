@@ -415,7 +415,7 @@ textarea {
 }
 
 .foot-web-all {
-  margin-left: 0 auto;
+  margin-left: auto;
   padding-left: 156px;
   padding-right: 1169px;
   padding-top: 100px;
@@ -437,7 +437,7 @@ textarea {
 }
 
 .foot-text {
-  margin-left: 0 auto;
+  margin-left: auto;
   padding-top: 16px;
   padding-left: 156px;
   padding-right: 1020px;
