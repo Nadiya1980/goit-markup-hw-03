@@ -293,12 +293,6 @@ textarea {
   color: #2e2f42;
 }
 .job-text {
-  width: 264px;
-  gap: 24px;
-  margin: 8px 0 0 0;
-  padding: 0;
-  flex-grow: 1;
-  overflow: hidden;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
