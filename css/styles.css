@@ -65,8 +65,8 @@ textarea {
   background-color: #fff;
   font-style: normal;
   border-bottom: 1px solid #e7e9fc;
-  box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08),
-    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 2px 1px 0 rgba(46, 47, 66, 0.08);
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .cap-address {
@@ -79,11 +79,15 @@ textarea {
   justify-content: space-between;
   display: flex;
   align-items: center;
+  position: relative;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .cap-navigator {
   display: flex;
   align-items: center;
+  color: #404bbf;
 }
 
 .cap-web {
@@ -102,6 +106,7 @@ textarea {
   padding: 24px 0;
   margin-right: 76px;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  color: #404bbf;
 }
 
 .cap-studio-link {
@@ -136,8 +141,12 @@ textarea {
 .cap-address-exact.current {
   position: relative;
   color: #404bbf;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.cap-address-exact {
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 .cap-address-exact.current::after {
   content: "";
   position: absolute;
@@ -175,15 +184,15 @@ textarea {
   color: #404bbf;
 }
 
-.hero {
+.container-hero {
   padding: 188px 0;
-  width: 1440px;
-  height: 600px;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
     url(../images/people_office.jpg);
+  width: 1440px;
+  height: 600px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -223,8 +232,7 @@ textarea {
   letter-spacing: 0.04em;
   line-height: 1.5;
   cursor: pointer;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-primary-btn:hover {
@@ -319,13 +327,13 @@ textarea {
 .icon-icon {
   fill: #f4f4fd;
 }
+
 .title-two-team {
   margin-bottom: 72px;
   box-sizing: border-box;
   font-size: 36px;
   text-transform: capitalize;
   line-height: 1.11;
-  /*text-align: center;*/
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
