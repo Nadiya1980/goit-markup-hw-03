@@ -184,14 +184,14 @@ textarea {
   color: #404bbf;
 }
 
-.container-hero {
+.hero {
   padding: 188px 0;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
     url(../images/people_office.jpg);
-  width: 1440px;
+  max-width: 1440px;
   height: 600px;
   background-repeat: no-repeat;
   background-position: center;
@@ -466,6 +466,7 @@ textarea {
   overflow: hidden;
   display: flex;
   left: 0;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .taste-item-wrap:hover .taste-item-text {
@@ -534,11 +535,11 @@ textarea {
   margin-right: 120px;
 }
 
-/*.foot-container {
-  display: flex;
-  align-items: baseline;
+.foot-container {
+  /*display: flex;
+  align-items: baseline;*/
   margin-right: 120px;
-}*/
+}
 
 .foot-web {
   font-family: "Raleway", sans-serif;
@@ -589,6 +590,7 @@ textarea {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #fff;
+  margin-right: 120px;
 }
 
 .media-text {
@@ -599,6 +601,13 @@ textarea {
   letter-spacing: 0.02em;
   color: #ffffff;
   margin-bottom: 16px;
+}
+.icon-link {
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.icon-link:focus {
+  background-color: #404bbf;
 }
 
 .icon-list-foot {
