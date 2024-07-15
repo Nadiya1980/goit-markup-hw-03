@@ -287,6 +287,10 @@ textarea {
   background-color: #f4f4fd;
 }
 
+.title-two-team {
+  text-align: center;
+}
+
 .icon-list {
   display: flex;
   gap: 24px;
@@ -383,7 +387,7 @@ textarea {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
-  /*text-align: center;*/
+  text-align: center;
   color: #2e2f42;
   margin-bottom: 72px;
 }
