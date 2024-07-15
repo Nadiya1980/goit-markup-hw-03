@@ -321,7 +321,7 @@ textarea {
   font-size: 36px;
   text-transform: capitalize;
   line-height: 1.11;
-  text-align: center;
+  /*text-align: center;*/
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
@@ -371,7 +371,7 @@ textarea {
 }
 
 .portfolio {
-  text-align: center;
+  /*text-align: center;*/
   background-color: #ffffff;
   padding: 120px 0 120px 0;
 }
@@ -383,7 +383,7 @@ textarea {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
-  text-align: center;
+  /*text-align: center;*/
   color: #2e2f42;
   margin-bottom: 72px;
 }
@@ -411,7 +411,6 @@ textarea {
   position: relative;
   overflow: hidden;
   display: flex;
-  align-items: center;
   left: 0;
 }
 
