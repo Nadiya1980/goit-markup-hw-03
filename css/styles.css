@@ -338,7 +338,10 @@ textarea {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.icon-link:hover,
+.icon-link:hover {
+  background-color: #404bbf;
+}
+
 .icon-link:focus {
   background-color: #404bbf;
 }
@@ -473,6 +476,17 @@ textarea {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.portfolio-list:hover {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+.icon-item {
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.icon-item:focus {
+  background-color: #404bbf;
+}
+
 .taste-item-wrap {
   position: relative;
   overflow: hidden;
@@ -571,7 +585,12 @@ textarea {
   justify-content: flex-start;
   flex-direction: row;
   gap: 0px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.foot-web-all:focus {
+  background-color: #31d0aa;
+}
+
 .foot-studio-white {
   color: #f4f4fd;
 }
@@ -614,7 +633,7 @@ textarea {
   color: #ffffff;
   margin-bottom: 16px;
 }
-.icon-link {
+.icon-link li:first-child {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
