@@ -338,10 +338,7 @@ textarea {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.icon-link:hover {
-  background-color: #404bbf;
-}
-
+.icon-link:hover,
 .icon-link:focus {
   background-color: #404bbf;
 }
@@ -666,10 +663,8 @@ textarea {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.icon-link-foot:hover {
-  background-color: #31d0aa;
-}
-
+.icon-link:focus,
+.icon-link-foot:hover,
 .icon-link-foot:focus {
   background-color: #31d0aa;
 }
