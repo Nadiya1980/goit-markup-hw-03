@@ -547,6 +547,10 @@ textarea {
 .container-foot {
   display: flex;
   align-items: baseline;
+  /* margin-right: 120px;*/
+}
+
+.foot-container {
   margin-right: 120px;
 }
 
