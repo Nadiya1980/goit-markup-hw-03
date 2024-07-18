@@ -547,6 +547,7 @@ textarea {
 .container-foot {
   display: flex;
   align-items: baseline;
+  margin-right: 120px;
 }
 
 .foot-web {
@@ -603,7 +604,7 @@ textarea {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #fff;
-  margin-right: 120px;
+  /*margin-right: 120px;*/
 }
 
 .media-text {
