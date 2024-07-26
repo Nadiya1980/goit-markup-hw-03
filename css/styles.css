@@ -677,7 +677,7 @@ label {
 .modal-close-btn {
   display: block;
   margin-left: auto;
-  color: #2e2f42;
+  fill: #2e2f42;
   top: 24px;
   border-radius: 100%;
   stroke-width: 1px;
@@ -692,18 +692,18 @@ label {
 }
 
 .modal-close-btn:hover {
-  color: #fff;
+  fill: #fff;
   background-color: #404bbf;
 }
 
 .modal-close-btn svg {
-  color: #2e2f42;
+  fill: #2e2f42;
   width: 8px;
   height: 8px;
 }
 .modal-close-btn:hover svg,
 .modal-close-btn:focus svg {
-  color: #ffff;
+  fill: #ffff;
   /*background-color: #404bbf;*/
 }
 .icon-close-black-btn:hover,
